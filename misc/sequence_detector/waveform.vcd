@@ -1,0 +1,191 @@
+$date
+	Sun Jan  5 01:37:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 4 ! t_z3_z0 [3:0] $end
+$var reg 1 " t_clock $end
+$var reg 1 # t_reset_ $end
+$var reg 2 $ t_x1_x0 [1:0] $end
+$scope module seq_detector $end
+$var wire 1 " clock $end
+$var wire 1 # reset_ $end
+$var wire 2 % x1_x0 [1:0] $end
+$var wire 4 & z3_z0 [3:0] $end
+$var wire 2 ' mjr [1:0] $end
+$var wire 2 ( c1_c0 [1:0] $end
+$var wire 1 ) b0 $end
+$scope module cu $end
+$var wire 1 ) b0 $end
+$var wire 1 " clock $end
+$var wire 1 # reset_ $end
+$var wire 2 * mjr [1:0] $end
+$var wire 1 + c_eff $end
+$var wire 2 , c1_c0 [1:0] $end
+$var wire 2 - addr_N [1:0] $end
+$var parameter 32 . s0 $end
+$var parameter 32 / s1 $end
+$var parameter 32 0 s2 $end
+$var parameter 32 1 s3 $end
+$var reg 2 2 MJR [1:0] $end
+$var reg 2 3 STAR [1:0] $end
+$upscope $end
+$scope module dp $end
+$var wire 1 ) b0 $end
+$var wire 1 " clock $end
+$var wire 1 # reset_ $end
+$var wire 2 4 x1_x0 [1:0] $end
+$var wire 4 5 z3_z0 [3:0] $end
+$var wire 2 6 mjr [1:0] $end
+$var wire 2 7 c1_c0 [1:0] $end
+$var reg 4 8 COUNT [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 1
+b10 0
+b1 /
+b0 .
+$end
+#0
+$dumpvars
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx -
+bx ,
+x+
+bx *
+x)
+bx (
+bx '
+bx &
+bx %
+bx $
+1#
+0"
+bx !
+$end
+#1
+1+
+b1 -
+0)
+b0 3
+b0 !
+b0 &
+b0 5
+b0 8
+b1 '
+b1 *
+b1 6
+b10 (
+b10 ,
+b10 7
+b0 $
+b0 %
+b0 4
+#5
+1"
+#8
+b10 -
+0+
+b1 3
+b1 2
+#10
+0"
+#11
+b11 '
+b11 *
+b11 6
+1+
+b1 (
+b1 ,
+b1 7
+b1 $
+b1 %
+b1 4
+#15
+1"
+#18
+bx -
+x+
+b10 3
+b11 2
+#20
+0"
+#21
+b0 '
+b0 *
+b0 6
+b0 (
+b0 ,
+b0 7
+b10 $
+b10 %
+b10 4
+#25
+1"
+#28
+b0 -
+1)
+0+
+b11 3
+b0 2
+#30
+0"
+#31
+b11 $
+b11 %
+b11 4
+#35
+1"
+#38
+0)
+b0 3
+#40
+0"
+#41
+b11 '
+b11 *
+b11 6
+b1 (
+b1 ,
+b1 7
+b1 $
+b1 %
+b1 4
+#45
+1"
+#48
+b11 2
+#50
+0"
+#51
+b0 '
+b0 *
+b0 6
+b0 (
+b0 ,
+b0 7
+b10 $
+b10 %
+b10 4
+#55
+1"
+#58
+b0 2
+#60
+0"
+#61

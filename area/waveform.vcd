@@ -1,0 +1,410 @@
+$date
+	Mon Jan  6 02:25:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! t_rfd_in_2 $end
+$var wire 1 " t_rfd_in_1 $end
+$var wire 1 # t_dav_out_ $end
+$var wire 16 $ t_data_out [15:0] $end
+$var reg 1 % t_clock $end
+$var reg 8 & t_data_in_1 [7:0] $end
+$var reg 8 ' t_data_in_2 [7:0] $end
+$var reg 1 ( t_dav_in_1_ $end
+$var reg 1 ) t_dav_in_2_ $end
+$var reg 1 * t_reset_ $end
+$var reg 1 + t_rfd_out $end
+$scope module perim $end
+$var wire 1 % clock $end
+$var wire 8 , data_in_1 [7:0] $end
+$var wire 8 - data_in_2 [7:0] $end
+$var wire 1 ( dav_in_1_ $end
+$var wire 1 ) dav_in_2_ $end
+$var wire 1 * reset_ $end
+$var wire 1 + rfd_out $end
+$var wire 1 ! rfd_in_2 $end
+$var wire 1 " rfd_in_1 $end
+$var wire 1 # dav_out_ $end
+$var wire 16 . data_out [15:0] $end
+$var wire 1 / c3 $end
+$var wire 1 0 c2 $end
+$var wire 1 1 c1 $end
+$var wire 1 2 c0 $end
+$var wire 1 3 b1 $end
+$var wire 1 4 b0 $end
+$scope module cu $end
+$var wire 4 5 c3_c0 [3:0] $end
+$var wire 1 % clock $end
+$var wire 1 * reset_ $end
+$var wire 1 6 c_eff $end
+$var wire 1 3 b1 $end
+$var wire 1 4 b0 $end
+$var wire 2 7 addr_N [1:0] $end
+$var parameter 2 8 s0 $end
+$var parameter 2 9 s1 $end
+$var parameter 2 : s2 $end
+$var parameter 2 ; s3 $end
+$var reg 2 < STAR [1:0] $end
+$upscope $end
+$scope module dp $end
+$var wire 1 4 b0 $end
+$var wire 1 3 b1 $end
+$var wire 1 2 c0 $end
+$var wire 1 / c3 $end
+$var wire 1 % clock $end
+$var wire 8 = data_in_1 [7:0] $end
+$var wire 8 > data_in_2 [7:0] $end
+$var wire 16 ? data_out [15:0] $end
+$var wire 1 ( dav_in_1_ $end
+$var wire 1 ) dav_in_2_ $end
+$var wire 1 # dav_out_ $end
+$var wire 1 * reset_ $end
+$var wire 1 " rfd_in_1 $end
+$var wire 1 ! rfd_in_2 $end
+$var wire 1 + rfd_out $end
+$var wire 16 @ comb_out [15:0] $end
+$var wire 1 0 c2 $end
+$var wire 1 1 c1 $end
+$var reg 3 A COUNT [2:0] $end
+$var reg 8 B DATA_1 [7:0] $end
+$var reg 8 C DATA_2 [7:0] $end
+$var reg 1 D HS_L $end
+$var reg 1 E HS_R $end
+$var reg 16 F PR [15:0] $end
+$scope module comb $end
+$var wire 16 G p15_p0_i [15:0] $end
+$var wire 8 H x7_x0 [7:0] $end
+$var wire 1 I y0_i $end
+$var wire 16 J z15_z0 [15:0] $end
+$var wire 17 K partial_1 [16:0] $end
+$var wire 16 L partial_0 [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 ;
+b10 :
+b1 9
+b0 8
+$end
+#0
+$dumpvars
+bx00000000 L
+bx K
+bx J
+xI
+bx H
+bx G
+bx F
+xE
+xD
+bx C
+bx B
+bx A
+bx @
+bx ?
+b110 >
+b101 =
+bx <
+bx 7
+x6
+b10x0 5
+x4
+x3
+02
+x1
+00
+1/
+bx .
+b110 -
+b101 ,
+0+
+1*
+1)
+1(
+b110 '
+b101 &
+0%
+bx $
+x#
+x"
+x!
+$end
+#1
+03
+04
+b0 7
+06
+b0 <
+1!
+1"
+1D
+1#
+1E
+#5
+1%
+#8
+b0 @
+b0 J
+b0 K
+b0 L
+0I
+b101 B
+b101 H
+b110 C
+b0 $
+b0 .
+b0 ?
+b0 F
+b0 G
+b1000 5
+01
+b0 A
+#10
+0%
+#15
+1%
+#20
+b1 7
+0/
+16
+b1 5
+12
+0%
+0)
+0(
+#25
+1%
+#28
+14
+06
+b1 <
+#30
+0%
+#35
+1%
+#38
+b1010000000 @
+b1010000000 J
+b10100000000 K
+b10100000000 L
+1I
+b111 A
+b11 C
+0!
+0"
+0D
+#40
+0%
+#45
+1%
+#48
+b1111000000 @
+b1111000000 J
+b1 C
+b11110000000 K
+b1010000000 $
+b1010000000 .
+b1010000000 ?
+b1010000000 F
+b1010000000 G
+b110 A
+#50
+0%
+#55
+1%
+#58
+b0 L
+b111100000 @
+b111100000 J
+0I
+b101 A
+b1111000000 K
+b1111000000 $
+b1111000000 .
+b1111000000 ?
+b1111000000 F
+b1111000000 G
+b0 C
+#60
+0%
+#65
+1%
+#68
+b11110000 @
+b11110000 J
+b111100000 K
+b111100000 $
+b111100000 .
+b111100000 ?
+b111100000 F
+b111100000 G
+b100 A
+#70
+0%
+#75
+1%
+#78
+b1111000 @
+b1111000 J
+b11 A
+b11110000 K
+b11110000 $
+b11110000 .
+b11110000 ?
+b11110000 F
+b11110000 G
+#80
+0%
+#85
+1%
+#88
+b111100 @
+b111100 J
+b1111000 K
+b1111000 $
+b1111000 .
+b1111000 ?
+b1111000 F
+b1111000 G
+b10 A
+#90
+0%
+#95
+1%
+#98
+b11110 @
+b11110 J
+b10 7
+16
+b11 5
+11
+b1 A
+b111100 K
+b111100 $
+b111100 .
+b111100 ?
+b111100 F
+b111100 G
+#100
+0%
+#105
+1%
+#108
+b1111 @
+b1111 J
+13
+04
+b11110 K
+b11110 $
+b11110 .
+b11110 ?
+b11110 F
+b11110 G
+b1 5
+01
+b0 A
+06
+b10 <
+#110
+0%
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+1%
+#140
+0%
+#145
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+1/
+b1000 5
+02
+0%
+1)
+1(
+#175
+1%
+#180
+0%
+#185
+1%
+#190
+b11 7
+0/
+0%
+16
+b100 5
+10
+1+
+#195
+1%
+#198
+14
+06
+b11 <
+#200
+0%
+#205
+1%
+#208
+0#
+0E
+#210
+b0 7
+16
+1/
+0%
+b1000 5
+00
+0+
+#215
+1%
+#218
+03
+04
+06
+b0 <
+#220
+0%
+#225
+1%
+#228
+b0 @
+b0 J
+1!
+1"
+1D
+1#
+1E
+b110 C
+b0 K
+b0 $
+b0 .
+b0 ?
+b0 F
+b0 G
+#230
+0%

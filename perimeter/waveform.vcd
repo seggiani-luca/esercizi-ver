@@ -1,0 +1,208 @@
+$date
+	Sun Jan  5 23:35:37 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! t_rfd_in_2 $end
+$var wire 1 " t_rfd_in_1 $end
+$var wire 1 # t_dav_out_ $end
+$var wire 10 $ t_data_out [9:0] $end
+$var reg 1 % t_clock $end
+$var reg 8 & t_data_in_1 [7:0] $end
+$var reg 8 ' t_data_in_2 [7:0] $end
+$var reg 1 ( t_dav_in_1_ $end
+$var reg 1 ) t_dav_in_2_ $end
+$var reg 1 * t_reset_ $end
+$var reg 1 + t_rfd_out $end
+$scope module perim $end
+$var wire 1 % clock $end
+$var wire 8 , data_in_1 [7:0] $end
+$var wire 8 - data_in_2 [7:0] $end
+$var wire 1 ( dav_in_1_ $end
+$var wire 1 ) dav_in_2_ $end
+$var wire 1 * reset_ $end
+$var wire 1 + rfd_out $end
+$var wire 1 ! rfd_in_2 $end
+$var wire 1 " rfd_in_1 $end
+$var wire 1 # dav_out_ $end
+$var wire 10 . data_out [9:0] $end
+$var wire 2 / c1_c0 [1:0] $end
+$var wire 1 0 b0 $end
+$scope module cu $end
+$var wire 1 0 b0 $end
+$var wire 2 1 c1_c0 [1:0] $end
+$var wire 1 % clock $end
+$var wire 1 * reset_ $end
+$var wire 1 2 c_eff $end
+$var wire 2 3 addr_N [1:0] $end
+$var parameter 1 4 s0 $end
+$var parameter 1 5 s1 $end
+$var reg 1 6 STAR $end
+$upscope $end
+$scope module dp $end
+$var wire 1 0 b0 $end
+$var wire 1 7 c0 $end
+$var wire 1 8 c1 $end
+$var wire 1 % clock $end
+$var wire 8 9 data_in_1 [7:0] $end
+$var wire 8 : data_in_2 [7:0] $end
+$var wire 10 ; data_out [9:0] $end
+$var wire 1 ( dav_in_1_ $end
+$var wire 1 ) dav_in_2_ $end
+$var wire 1 # dav_out_ $end
+$var wire 1 * reset_ $end
+$var wire 1 " rfd_in_1 $end
+$var wire 1 ! rfd_in_2 $end
+$var wire 1 + rfd_out $end
+$var wire 10 < comb_out [9:0] $end
+$var reg 1 = HS $end
+$var reg 10 > OUTR [9:0] $end
+$scope module comb $end
+$var wire 8 ? x7_x0 [7:0] $end
+$var wire 8 @ y7_y0 [7:0] $end
+$var wire 9 A z9_z0_h [8:0] $end
+$var wire 10 B z9_z0 [9:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+15
+04
+$end
+#0
+$dumpvars
+b10110 B
+b1011 A
+b110 @
+b101 ?
+bx >
+x=
+b10110 <
+bx ;
+b110 :
+b101 9
+18
+07
+x6
+b0x 3
+x2
+b10 1
+x0
+b10 /
+bx .
+b110 -
+b101 ,
+0+
+1*
+1)
+1(
+b110 '
+b101 &
+0%
+bx $
+x#
+x"
+x!
+$end
+#1
+b0 3
+10
+02
+06
+1#
+1!
+1"
+1=
+#5
+1%
+#8
+b10110 $
+b10110 .
+b10110 ;
+b10110 >
+#10
+0%
+#15
+1%
+#20
+b0 /
+b0 1
+08
+0%
+0)
+0(
+#25
+1%
+#30
+0%
+#35
+1%
+#40
+b1 3
+12
+b1 /
+b1 1
+17
+0%
+1+
+#45
+1%
+#48
+00
+02
+16
+#50
+0%
+#55
+1%
+#58
+0#
+0!
+0"
+0=
+#60
+b0 /
+b0 1
+07
+0%
+1)
+1(
+#65
+1%
+#70
+0%
+#75
+1%
+#80
+b0 3
+12
+b10 /
+b10 1
+18
+0%
+0+
+#85
+1%
+#88
+10
+02
+06
+#90
+0%
+#95
+1%
+#98
+1#
+1!
+1"
+1=
+#100
+0%
